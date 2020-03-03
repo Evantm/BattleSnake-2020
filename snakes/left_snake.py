@@ -9,6 +9,6 @@ def start():
 
 def move_left():
 	return {
-		"move": "right",
+		"move": "left",
 		"shout": "I am moving left!"
 		}

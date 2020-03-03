@@ -11,12 +11,12 @@ def hello():
 
 @app.route('/start')
 def start():
-    return left_snake.start()
+    return jsonify(left_snake.start())
 
 
 @app.route('/move')
 def move():
-    return left_snake.move_left()
+    return jsonify(left_snake.move_left())
 
 
 @app.route('/end')
